@@ -53,7 +53,7 @@ Categories=Development;IDE;
 StartupNotify=true
 ```
 
-## Icone para o cursor ai
+### Icone para o cursor ai
 Um exemplo de icone pode ser adquirido em:
 
 [https://icons8.com/icons/set/cursor-ai](https://icons8.com/icons/set/cursor-ai)
@@ -63,7 +63,7 @@ Baixe como .png
 mova o icone para o diretorio da aplicação cursor ai
 > mv ~/Downloads/cursor-icon.png ~/Applications/cursor-icon.png
 
-## Garantir permissões e caminhos
+### Garantir permissões e caminhos
 > chmod +x /home/rprojetos/Applications/cursor.AppImage
 
 > ls -l /home/rprojetos/Applications/cursor.AppImage
@@ -72,7 +72,7 @@ mova o icone para o diretorio da aplicação cursor ai
 
 > chmod +x ~/.local/share/applications/cursor.desktop
 
-## Atualize o banco e recarregue o Shell:
+### Atualize o banco e recarregue o Shell:
 > update-desktop-database ~/.local/share/applications
 
 > killall -SIGUSR1 gnome-shell
