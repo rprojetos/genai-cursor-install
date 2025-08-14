@@ -55,22 +55,30 @@ StartupNotify=true
 
 ## Icone para o cursor ai
 Um exemplo de icone pode ser adquirido em:
+
 [https://icons8.com/icons/set/cursor-ai](https://icons8.com/icons/set/cursor-ai)
+
 Baixe como .png
+
 mova o icone para o diretorio da aplicação cursor ai
-mv ~/Downloads/cursor-icon.png ~/Applications/cursor-icon.png
+> mv ~/Downloads/cursor-icon.png ~/Applications/cursor-icon.png
 
 ## Garantir permissões e caminhos
-chmod +x /home/rprojetos/Applications/cursor.AppImage
-ls -l /home/rprojetos/Applications/cursor.AppImage
-ls -l /home/rprojetos/Applications/cursor-icon.png
-chmod +x ~/.local/share/applications/cursor.desktop
+> chmod +x /home/rprojetos/Applications/cursor.AppImage
 
-Atualize o banco e recarregue o Shell:
-update-desktop-database ~/.local/share/applications
-killall -SIGUSR1 gnome-shell
+> ls -l /home/rprojetos/Applications/cursor.AppImage
+
+> ls -l /home/rprojetos/Applications/cursor-icon.png
+
+> chmod +x ~/.local/share/applications/cursor.desktop
+
+## Atualize o banco e recarregue o Shell:
+> update-desktop-database ~/.local/share/applications
+
+> killall -SIGUSR1 gnome-shell
 
 Agora abra o “Show Apps” e procure por Cursor AI.
+
 Se quiser fixar no dock, abra uma vez pelo Show Apps e clique com o direito > Fixar.
 
 
